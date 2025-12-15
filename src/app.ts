@@ -1,9 +1,6 @@
 import "dotenv/config";
 import express from "express";
 import Login from "./controller/login.js"
-// import dotenv from "dotenv";
-// dotenv.config();
-
 
 //@ts-ignore
 import authMiddleware from "../src/middleware/authMiddleware.js"

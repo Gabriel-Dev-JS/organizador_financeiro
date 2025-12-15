@@ -10,7 +10,6 @@ class Login {
   login (req:Request, res:Response):any {
     console.log(KEY_TOKEN)
     const {email, senha} = req.body
-    // const {email, senha} = req.body ?? { "email": "beatriz.ramos@example.com", "senha": "B3atriz#2025"}
 
     const [usuario] = user.filter(user => user.email == email)
     console.log(usuario)
