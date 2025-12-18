@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken"
 import type { Request, Response } from "express"
-import user from "../mockdata/data.js"
+import user from "../mockdata/data"
 
 const KEY_TOKEN = process.env.SECRET_TOKEN
 
@@ -28,7 +28,7 @@ class Login {
       {expiresIn: '1h'}
     )
 
-    res.json({token}) 
+    res.json({token})
   }
 }
 

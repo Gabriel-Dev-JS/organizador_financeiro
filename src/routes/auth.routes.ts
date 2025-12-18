@@ -1,9 +1,8 @@
-import { Router } from "express"
-//@ts-ignore
-import authMiddleware from "../middleware/authMiddleware.js"
-import Login from "../controller/login.js"
+// import { Router } from "express"
+// import authMiddleware from "../middleware/authMiddleware"
+// import Login from "../controller/login"
 
-const routes = Router()
+// const routes = Router()
 
 // routes.use(authMiddleware)
 
@@ -19,4 +18,4 @@ const routes = Router()
 
 // routes.post('/login', Login.login)
 
-export default routes
+// export default routes
