@@ -27,4 +27,3 @@ class App {
 }
 
 export { App };
-
